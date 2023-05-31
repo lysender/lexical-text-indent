@@ -11,7 +11,7 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, '.SFNSText-Regular',
-  sans-serif;
+    sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: #eee;
@@ -710,7 +710,7 @@ i.prettier-error {
   display: block;
   position: fixed;
   box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
-  inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
   border-radius: 8px;
   min-height: 40px;
   background-color: #fff;
@@ -1490,22 +1490,22 @@ button.action-button:disabled {
 .sticky-note.yellow {
   border-top: 1px solid #fdfd86;
   background: linear-gradient(
-      135deg,
-      #ffff88 81%,
-      #ffff88 82%,
-      #ffff88 82%,
-      #ffffc6 100%
+    135deg,
+    #ffff88 81%,
+    #ffff88 82%,
+    #ffff88 82%,
+    #ffffc6 100%
   );
 }
 
 .sticky-note.pink {
   border-top: 1px solid #e7d1e4;
   background: linear-gradient(
-      135deg,
-      #f7cbe8 81%,
-      #f7cbe8 82%,
-      #f7cbe8 82%,
-      #e7bfe1 100%
+    135deg,
+    #f7cbe8 81%,
+    #f7cbe8 82%,
+    #f7cbe8 82%,
+    #e7bfe1 100%
   );
 }
 
