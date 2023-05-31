@@ -26,9 +26,17 @@ function App() {
       </div>
       {viewerState && (
         <div>
-          <h1>Viewer</h1>
-          <div className={'card'}>
-            <EditorContainer readonly={true} content={viewerState} />
+          <div>
+            <h1>Another editor</h1>
+            <div className={'card'}>
+              <EditorContainer readonly={false} content={viewerState} />
+            </div>
+          </div>
+          <div>
+            <h1>Viewer</h1>
+            <div className={'card'}>
+              <EditorContainer readonly={true} content={viewerState} />
+            </div>
           </div>
         </div>
       )}
