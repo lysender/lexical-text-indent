@@ -9,6 +9,7 @@ import Editor from './Editor.tsx';
 type Props = {
   readonly: boolean;
   content: string|null;
+  onChange?: (content: string|null) => void;
 };
 
 function EditorContainer(props: Props) {
@@ -24,7 +25,9 @@ function EditorContainer(props: Props) {
   };
 
   const handleOnChange = (editorState: EditorState) => {
-    console.log(editorState);
+    if (props.onChange) {
+      props.onChange(JSON.stringify(editorState));
+    }
   }
 
   return (
