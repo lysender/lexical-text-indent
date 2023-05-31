@@ -22,7 +22,7 @@ function App() {
         </div>
       </div>
       <div>
-        <button onClick={handleRenderViewer}>Render in viewer</button>
+        <button onClick={handleRenderViewer}>Render in another editor and a viewer</button>
       </div>
       {viewerState && (
         <div>

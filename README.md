@@ -2,7 +2,15 @@
 
 Bug: Theme `PlaygroundEditorTheme__indent` value doesn't get used when rendering editor state with indents to another editor.
 
-Use case: Rendering contents from database to the editor.
+Use case: Rendering contents from database to the editor where the content has indention.
+
+Tried to override the indent value from `40px` to `20px`
+
+```css
+.PlaygroundEditorTheme__indent {
+  --lexical-indent-base-value: 20px;
+}
+```
 
 Versions
 
